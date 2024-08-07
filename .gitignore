@@ -1,0 +1,8 @@
+# I\Proj. management files\;
+/$packs/
+/resource/Brainfuck Source Files/Tyouli.lnk
+/Notes.txt
+
+# Python generated
+__pycache__/
+*.pyc
