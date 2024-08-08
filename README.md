@@ -57,7 +57,7 @@ simple_add = TyBfCompiler.bfs2func("imp.BfModules.simple_add")
 * The module_path would be translated into file_path(like `./imp/Tyouli/simple_add.bfs`) in the functions;
 ```python
 TyBfCompiler.src2module(",>,[<+>-]<.", "imp.BfModules.simple_add")
-# The generated module will be at ./imp/BfModules/simple_add (.imp/BfModules/simple_add.pyc)
+# The generated module will be at ./imp/BfModules/simple_add (.imp/BfModules/TyBfModule_simple_add.pyc)
 ```
 * If you are transforming a brainfuck source file into other types of data, the file_path would be added a default suffix `.bfs`;
 ```python
