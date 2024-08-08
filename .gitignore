@@ -6,3 +6,9 @@
 # Python generated
 __pycache__/
 *.pyc
+
+# Test files
+# Exclude all items in /src/imp/Tyouli/ except *.py and all folders
+/src/imp/Tyouli/*
+!/src/imp/Tyouli/*.py
+!/src/imp/Tyouli/*/
